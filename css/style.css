@@ -1,3 +1,66 @@
-ul {
-  list-style: none;
+
+
+
+
+
+.site-navigation a {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+top: 64px;
+
+color: #303032;
+
 }
+
+.site-navigation li {
+  margin-right: 60px;
+}
+
+.user-navigation a {
+ 
+  left: 85.14%;
+  right: 13.19%;
+  top: 64px;
+  bottom: 96.09%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+.main-navigation {
+ 
+  padding: 90px 135px;
+  margin-bottom: 30px;
+ }
+
+ .main-navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2;
+  margin-left: 125px;
+  }
+
+.user-navigation {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
