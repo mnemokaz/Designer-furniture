@@ -1,7 +1,11 @@
 
+body {
+  background-color: #FAFDFF;
+}
 
-
-
+.visually-hidden {
+  visibility: hidden;
+}
 
 .site-navigation a {
 font-family: 'Open Sans';
@@ -21,25 +25,16 @@ color: #303032;
   margin-right: 60px;
 }
 
-.user-navigation a {
- 
-  left: 85.14%;
-  right: 13.19%;
-  top: 64px;
-  bottom: 96.09%;
-  }
-
-  ul {
+ul {
     list-style: none;
   }
 
 .main-navigation {
  
-  padding: 90px 135px;
-  margin-bottom: 30px;
- }
-
- .main-navigation {
+  padding: 25px 135px;
+  margin-bottom: 15px;
+  z-index: 2;
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -63,4 +58,134 @@ color: #303032;
     text-decoration: none;
   }
   
+  h2 {
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 57px;
+line-height: 145%;
+/* or 83px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #303032;
+
+  }
+  .container {
+    
+    margin: auto;
+    padding: 0 135px;
+  }
+
+  .item-title, h3 {
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+color: #303032;
+
+  }
+
+  .item-title p {
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #303032;
+
+  }
+
+.sale-price {
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+color: #303032;
+
+  }
+
+.sale-price span {
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+margin-right: 22px;
+
+
+color: #303032;
+
+}
+.button {
+
+width: 76px;
+height: 22px;
+left: 215px;
+top: 555px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.13em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-align: center;
+color: #ffffff;
+display: inline-block;
+vertical-align: middle;
+text-transform: uppercase;
+border: none;
+
+}
+
+.slider-title button {
+    
+width: 238px;
+height: 58px;
+left: 135px;
+top: 537px;
+background-color: black;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+.slide {
+  display: flex;
+  flex-direction: row;
+}
   
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  opacity: 0.6;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+ opacity: 0.6;
+ cursor: pointer;
+}
