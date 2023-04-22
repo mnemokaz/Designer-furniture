@@ -80,7 +80,8 @@ text-transform: uppercase;
 color: #303032;
 
   }
-  .container {
+
+.container {
  box-sizing: border-box;
  margin: 0 auto;
  padding: 0 135px;
@@ -287,7 +288,8 @@ color: #303032;
 }
     
 
-.new-list p {
+.new-list p,
+.name-customer p {
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
@@ -385,6 +387,25 @@ color: #303032;
 }
 
 
+.new-item a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, .03);
+  
+}
+
+.new-item a:focus .product--new ,
+.new-item a:hover .product--new {
+
+  background-color:  #fceae8;
+  
+}
+
+
+
 @media (max-width: 1023px) {
   
 }
+
