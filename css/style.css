@@ -78,7 +78,7 @@ h2 {
 .container {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0 135px;
+  padding: 0 px;
   max-width: 1220px;
   min-width: 320px;
 }
@@ -129,8 +129,6 @@ h2 {
 .button {
   width: 76px;
   height: 22px;
-  left: 215px;
-  top: 555px;
 
   font-family: 'Open Sans';
   font-style: normal;
@@ -227,9 +225,7 @@ h4 {
 .new-title {
   display: flex;
   align-items: center;
-  width: calc((100% - 10px) / 4);
   height: 289px;
-  position: absolute;
 }
 
 .new-list {
@@ -386,6 +382,7 @@ h4 {
   display: flex;
   transition-property: transform;
   box-sizing: content-box;
+  margin-left: 18px;
 }
 
 .review-container .swiper-slide {
@@ -596,12 +593,16 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding: 0;
   z-index: 1;
-  list-style: none;
-  margin: 0 0 0 19px;
-  margin-right: 52px;
-  margin-bottom: 200px;
+  margin-bottom: 30px;
+  margin-top: -50px;
+  margin-left: 18px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 50px;
 }
 
 .product-sale {
@@ -689,6 +690,10 @@ h4 {
   border: 0;
   outline: 0;
   cursor: pointer;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
 }
 
 .product-caramel img {
@@ -698,29 +703,35 @@ h4 {
   margin-top: 3px;
 }
 
-.product-cloud img,
+.product-cloud img {
+  display: block;
+  width: 232px;
+  height: auto;
+  margin-left: auto;
+  margin-top: 12px;
+}
+
 .product-owl img {
   display: block;
   width: 197px;
   margin-left: auto;
+  margin-top: 30px;
+  height: auto;
 }
 
-.product-owl img {
-  width: 167px;
-  margin-top: 9px;
-}
-
-.product-maya img,
-.product-messi img {
+.product-maya img {
   display: block;
-  width: 186px;
+  width: 230px;
   margin-left: auto;
-  margin-top: -30px;
+  margin-top: 1px;
+  height: auto;
 }
 
 .product-messi img {
-  width: 162px;
-  margin-top: 6px;
+  width: 209px;
+  margin-top: 14px;
+  display: block;
+  height: auto;
 }
 
 .product-sale {
@@ -732,10 +743,6 @@ h4 {
 
 .product-sale .product__image {
   height: 299px;
-}
-
-.product-sale .button {
-  display: block;
 }
 
 .product-sale::before {
